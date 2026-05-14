@@ -11,9 +11,9 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "check": "vite build",
-    "deploy:vercel": "vercel --prod",
-    "deploy:vercel:preview": "vercel",
-    "supabase:functions:deploy": "supabase functions deploy get-stories && supabase functions deploy publish-story && supabase functions deploy create-payment-intent && supabase functions deploy handle-payment-webhook && supabase functions deploy send-comfort && supabase functions deploy get-user-center && supabase functions deploy get-tragedy-rank"
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:vercel:preview": "npx vercel",
+    "supabase:functions:deploy": "npx supabase functions deploy get-stories && npx supabase functions deploy publish-story && npx supabase functions deploy create-payment-intent && npx supabase functions deploy handle-payment-webhook && npx supabase functions deploy send-comfort && npx supabase functions deploy get-user-center && npx supabase functions deploy get-tragedy-rank"
   },
     "keywords": [],
     "author": "",

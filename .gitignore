@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vercel/
+
+.env
+.env.local
+.env.production
+
+server/frontend-stdout.log
+server/frontend-stderr.log
+server/stdout.log
+server/stderr.log
+server/db/local.db
+
+.DS_Store
+Thumbs.db

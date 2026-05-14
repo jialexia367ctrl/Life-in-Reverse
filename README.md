@@ -1,2 +1,2 @@
 # Life-in-Reverse
-Someone else is paying for your failure
+What we sell isn’t success, but the right to be allowed to “lose.”
